@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: justify;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(64, 143, 0); text-decoration: none; 
+ }
+
+a:hover { color: rgb(0, 3, 48); text-decoration: underline
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+    margin: 8px;
+    padding: 0;
+}
+h1 {
+    font-size:2.0rem;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size:1.5rem;
+    margin-top: 2px;
+}
+h3 {
+    font-size:0.9rem;
+    margin-top: 1px;
+    padding-left: 5px;
+}
+.float-left {
+    float: left;
+    margin-left:1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.float-right {
+    float: right;
+    margin-right: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+table {
+    border: 1px solid #030000;
+    border-collapse: collapse;
+    width: 100%
+}
+table thead th {
+    background-color: #000000;
+    color: white;
+    color:white
+    border: 1px solid #cdcdcd;
+}
+table tbody td {
+    border: 1px solid #cdcdcd;
+} 
+table tbody tr: hover td {
+    background-color: 
+    color: white;
+    cursor: pointer;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.season {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-weight:normal;
+}
